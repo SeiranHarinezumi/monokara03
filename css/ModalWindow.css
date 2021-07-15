@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  width: 100%;
+  font-family: 'Kiwi Maru', serif;
+}
+
+.Window {
+  background-color: grey;
+  border-radius: 2.5rem;
+  width: 60vh;
+  height: 70vh;
+  padding: 5rem;
+}
+
+.WindowLeft{
+  float: left;
+  max-width: 50%;
+}
+
+.WindowLeft img{
+  width: 15rem;
+  height: 10rem;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.WindowRight{
+  max-width: 50%;
+}
+
+.Window p {
+  font-size: 1.2rem;
+}
